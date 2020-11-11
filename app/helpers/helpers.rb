@@ -1,5 +1,5 @@
 class Helpers
-attr_accessor 
+attr_accessor
   def self.current_user(session)
     @user = User.find(session[:user_id])
     @user
